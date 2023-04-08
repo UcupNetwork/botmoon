@@ -1,0 +1,26 @@
+import fetch from 'node-fetch'
+
+let handler = async(m, { conn, text }) => {
+
+  if (!text) return conn.reply(m.chat, 'Harap Masukan Username', m)
+    let res = await fetch(`https://api.ibeng.tech/api/search/herodetails?name=${text}&apikey=tamvan`)
+    let json = await res.json()
+    let thumb = await (await fetch(json.data.image)).buffer()
+    let hasil = `
+• *Name*: ${json.data.hero_name}
+• *Quotes*: ${json.data.entrance_quotes}
+• *Feature*: ${json.data.hero_feature}
+• *Speciality:* ${json.data.speciality}
+• *Role:* ${json.data.role}
+• *Laning:* ${json.data.laning_recommendation}
+• *Story:* ${json.data.backgournd_story}
+`
+
+    conn.sendFile(m.chat, thumb, 'ml.jpg', hasil, m)
+		}
+handler.help = ['heroml']
+handler.tags = ['stalker']
+handler.command = /^(heroml)$/i
+handler.limit = true
+
+export default handler
