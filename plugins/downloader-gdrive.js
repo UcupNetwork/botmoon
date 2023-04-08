@@ -16,7 +16,7 @@ handler.help = ['gdrive']
 handler.tags = ['downloader']
 handler.command = /^(gdrive)$/i
 
-handler.limit = true
+handler.premium = true
 
 export default handler
 

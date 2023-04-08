@@ -18,7 +18,7 @@ let handler = async (m, { conn, text }) => {
 handler.help = handler.alias = ['sfile']
 handler.tags = ['downloader']
 handler.command = /^(sfile)$/i
-handler.limit = true
+handler.premium = true
 export default handler
 
 async function sfileSearch(query, page = 1) {

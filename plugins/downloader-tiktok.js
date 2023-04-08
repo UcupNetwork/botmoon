@@ -10,4 +10,5 @@ if (!args[0]) throw `Linknya?`
 handler.help = ['tiktok','ttdl']
 handler.tags = ['downloader']
 handler.command = /^(tiktokdl|ttdl|tiktok|tt)$/i
+handler.limir = 3
 export default handler

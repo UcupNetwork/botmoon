@@ -13,7 +13,7 @@ let handler = async (m, { conn, args }) => {
 handler.tags = ['downloader']
 handler.command = /^danbooru$/i
 handler.help = ['danbooru']
-
+handler.premium = true
 export default handler
 
 export async function danbooruDl(url) {

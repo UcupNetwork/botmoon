@@ -21,7 +21,7 @@ let handler = async (m, { conn, text, args, command }) => {
 				lastError = e
 			}
 		}
-		if (sizeh > 300000) throw `Filesize: ${audio.fileSizeH}\nTidak Dapat Mengirim, Maksimal File 300 MB`
+		if (sizeh > 3000) throw `Filesize: ${audio.fileSizeH}\nTidak Dapat Mengirim, Maksimal File 300 MB`
 		if (!link) throw new Error('No URL')
 		if (command.includes('mp3')) await conn.sendMessage(m.chat, { document: { url: link }, mimetype: 'audio/mpeg', fileName: `${title}.mp3`}, { quoted : m })
 		else await conn.sendMessage(m.chat, { audio: { url: link }, mimetype: 'audio/mp4' }, { quoted : m })
@@ -62,6 +62,6 @@ handler.tags = ['downloader']
 handler.command = /^yt(a|mp3)$/i
 
 handler.register = false
-handler.limit = true
+handler.limit = 10
 
 export default handler

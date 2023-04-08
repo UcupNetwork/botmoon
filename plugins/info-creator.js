@@ -5,7 +5,7 @@ let handler = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 	let _type = (args[0] || "").toLowerCase();
 
 	//------- NOMOR
-	let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;${author};;;\nFN:${author}\nORG:${author}\nTITLE:\nitem1.TEL;waid=6287826940361:+62 878 2694 0361\nitem1.X-ABLabel:${author}\nX-WA-BIZ-DESCRIPTION:\nX-WA-BIZ-NAME:${author}\nEND:VCARD`
+	let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;${author};;;\nFN:${author}\nORG:${author}\nTITLE:\nitem1.TEL;waid=6283133162295:+62 831 3316 2295\nitem1.X-ABLabel:${author}\nX-WA-DESCRIPTION:\nX-WA-NAME:${author}\nEND:VCARD`
 
 
 	//------------ BIO
@@ -22,13 +22,13 @@ let handler = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 • Tinggal : Medan, Sumatra Utara
 • Waifu : Lebih Suka Loli :v
 `;
-	let teks = "Pilih Di Bawah Kak (〃＾▽＾〃)";
+	let teks = "di save ya bg, ntar gw svb 🗿";
 	const sections = [
 		{
 			title: `Owner`,
 			rows: [
 				{ title: "Nomor", rowId: ".owner nomor" },
-				{ title: "Biodata", rowId: ".owner bio" },
+				{ title: "woilah..\ntadi kan gw hbis nnton bkp, trs gw skrg sange berat kontol🥲", rowId: "" },
 			],
 		},
 	];
@@ -37,7 +37,7 @@ let handler = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 		text: teks,
 		footer: null,
 		title: `Silahkan Pilih Salah Satu`,
-		buttonText: "Touch Me (≧ω≦)",
+		buttonText: "Click",
 		sections,
 	};
 

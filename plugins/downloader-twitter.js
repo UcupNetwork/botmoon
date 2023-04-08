@@ -14,7 +14,7 @@ handler.tags = ['downloader']
 handler.alias = ['twt', 'twtdl', 'twitter', 'twitterdl']
 handler.command = /^((twt|twitter)(dl)?)$/i
 
-handler.limit = true
+handler.premium = true
 
 export default handler
 

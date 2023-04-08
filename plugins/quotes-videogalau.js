@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 		"Nih Kak",
 		wm,
 		pickRandom(galau),
-		[["Lanjut", `/videogalau}`]],
+		[["tq", `}`]],
 		m
 	);
 };
@@ -13,7 +13,7 @@ handler.tags = ["quotes"];
 handler.command = /^(videoquotes|videogalau)$/i;
 
 handler.premium = false;
-handler.limit = true;
+handler.limit = 5
 
 handler.fail = null;
 handler.register = false;

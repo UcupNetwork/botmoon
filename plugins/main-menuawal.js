@@ -99,7 +99,7 @@ let name = conn.getName(m.sender)
 }
 } })*/
 let nowaa = '0'
-let nogww = '6287826940361'
+let nogww = '6283133162295'
 let nogwww = `@${nomorown1.split`@`[0]}`
 let nowa = `${nowaa.split`@`[0]}@s.whatsapp.net`
 let nogw = `${nogww.split`@`[0]}@s.whatsapp.net`
@@ -110,14 +110,13 @@ let id2 = '.tesm'
 let but3 = ('Sewabot') 
 let id3 = '.sewa'
 let konten = (`*${ucapan()}, ${tag} 👋*`)
-let knnt = `
-Jangan Pernah Mengeluh Karna Doamu Tidak Terkabulkan, Karna Tuhan Memberi Apa Yang Kamu Butuhkan Bukan Apa Yang Kamu Inginkan!!!`
-let ᴛᴇs = `Powered By BotzDyn\nCreator By DynStore`
+let knnt = `apa bg 🗿`
+let ᴛᴇs = `wa.me/6283133162295 di sv ya bg, ntr gw svb `
 let wkwk = 'https://telegra.ph/file/1b773671be6d2f21f49d7.jpg'
 
 conn.send2ButtonImg(m.chat, fotonya1, knnt, ᴛᴇs, but1, id1, but2, id2, m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     description: sgc,
-    title: "Yaemiko-Multidevices",
+    title: "𝐏𝐚𝐭𝐫𝐢𝐜𝐤 𝐌𝐨𝐨𝐧",
     body: global.author,
     thumbnail: fs.readFileSync('./thumbnail.jpg'),
     sourceUrl: sgc
@@ -132,7 +131,7 @@ conn.sendFile(m.chat, vn, "inimenu.mp3", null, m, true, {
 }
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = /^(ahahah)$/i
+handler.command = /^(help)$/i
 handler.register = false
 
 export default handler

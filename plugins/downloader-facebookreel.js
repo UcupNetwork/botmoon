@@ -29,6 +29,6 @@ let dapet = json.result.url
 }
 handler.help = ['facebookreel','fbreel']
 handler.tags = ['downloader']
-
+handler.premium = true
 handler.command = /^(facebookreel|fbreel)$/i
 export default handler

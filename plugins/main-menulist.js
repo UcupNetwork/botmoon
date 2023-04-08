@@ -216,38 +216,38 @@ let mpt = clockString(_mpt)
 const sections = [{
 title: `${htki} Silahkan Pilih Salah Satu ${htka}`,
 rows: [
-{title: `「ღ」| All Fitur`, rowId: ".? all", description: "Menampilkan Semua Fitur"},
-{title: `「ღ」| Ai`, rowId: ".? ai", description: "Sekumpulan Fitur Ai"},
-{title: `「ღ」| Admin`, rowId: ".? admin", description: "Khusus Admin Grup"},
-{title: `「ღ」| Al-Quran`, rowId: ".? quran", description: "Mari Mendekatkan Diri Kepada Sang Pencipta"},
-{title: `「ღ」| Anime`, rowId: ".? anime", description: "Apakah Kamu Anime Kak?"},
-{title: `「ღ」| Anonymous`, rowId: ".? anonymous", description: "Mengobrol Dengan Orang Yang Tidak Di Kenal"},
-{title: `「ღ」| Asupan`, rowId: ".? asupan", description: "Fitur Pencuci Mata :v"},
-{title: `「ღ」| Audio`, rowId: ".? audio", description: "Ubah Audio Menggunakan Filter"},
-{title: `「ღ」| Berita`, rowId: ".? berita", description: "Cari Berita Ter Up To Date"},
-{title: `「ღ」| Database`, rowId: ".? database", description: "Simpan Sesuatu Di Database Bot"},
-{title: `「ღ」| Downloaders`, rowId: ".? downloader", description: "Jangan Download Vokep Ya"},
-{title: `「ღ」| Exp`, rowId: ".? xp", description: "Ayo Kumpulkan Exp Dan Naikan Pangkat Mu!"},
-{title: `「ღ」| Fun`, rowId: ".? fun", description: "Fitur Yang Aman Dan Sangat Bersahabat"},
-{title: `「ღ」| Game`, rowId: ".? game", description: "Gamenya Seru Lho Apalagi Main Sama Temen >,<"},
-{title: `「ღ」| Group`, rowId: ".? group", description: "Fitur Yang Cocok Untuk Menjaga Grup"},
-{title: `「ღ」| Info`, rowId: ".? info", description: "Info Tentang Bot"},
-{title: `「ღ」| Internet`, rowId: ".? internet", description: "Jangan Nyari Yang Aneh Aneh Ya Kak"},
-{title: `「ღ」| Kerang`, rowId: ".? kerangajaib", description: "Tenya Apapun Kepada Ketua Club"},
-{title: `「ღ」| Maker`, rowId: ".? maker", description: "Buatlah Suatu Karya Di Fitur Ini"},
-{title: `「ღ」| Menfess`, rowId: ".? menfess", description: "Mengirim Pesan Secara Anonim"},
-{title: `「ღ」| Nsfw`, rowId: ".? nsfw", description: "Eitss Dosa Di Tanggung Sendiri Ya Kak >,<"},
-{title: `「ღ」| Nulis`, rowId: ".? nulis", description: "Nulis Doang Kok Males Sih Kak?"},
-{title: `「ღ」| Owner`, rowId: ".? owner", description: "Ini Khusus Ownerku !!"},
-{title: `「ღ」| Premium`, rowId: ".? premium", description: "Ini Khusus User Premium !!"},
-{title: `「ღ」| Quotes`, rowId: ".? quotes", description: "Random Kata Motivasi, Bucin, Inspirasi Dan Lainnya"},
-{title: `「ღ」| Rpg`, rowId: ".? rpg", description: "Mari Berpetualang Bersama Bot!!!"},
-{title: `「ღ」| Stalking`, rowId: ".? stalker", description: "Mau Stalking Mantan Yah Kak >,<"},
-{title: `「ღ」| Stress`, rowId: ".? stress", description: "Ini Fitur Khusus Yang Stress :v"},
-{title: `「ღ」| Stikers`, rowId: ".? stiker", description: "Buat Sticker Di Bot"},
-{title: `「ღ」| Text Pro`, rowId: ".? textpro", description: "Buat Logo Kamu Disini Dengan Text Custom"},
-{title: `「ღ」| Tools`, rowId: ".? tools", description: "Mungkin Fitur Ini Bisa Membantumu"},
-{title: `「ღ」| No Category`, rowId: ".? nocategory", description: "Fitur Tanpa Kategory!"},
+{title: `『 ⌗ 』| All Fitur`, rowId: ".? all", description: "Menampilkan Semua Fitur"},
+{title: `『 ⌗ 』| Ai`, rowId: ".? ai", description: "Sekumpulan Fitur Ai"},
+{title: `『 ⌗ 』| Admin`, rowId: ".? admin", description: "Khusus Admin Grup"},
+{title: `『 ⌗ 』| Al-Quran`, rowId: ".? quran", description: "Mari Mendekatkan Diri Kepada Sang Pencipta"},
+{title: `『 ⌗ 』| Anime`, rowId: ".? anime", description: "Apakah Kamu Anime Kak?"},
+{title: `『 ⌗ 』| Anonymous`, rowId: ".? anonymous", description: "Mengobrol Dengan Orang Yang Tidak Di Kenal"},
+{title: `『 ⌗ 』| Asupan`, rowId: ".? asupan", description: "Fitur Pencuci Mata :v"},
+{title: `『 ⌗ 』| Audio`, rowId: ".? audio", description: "Ubah Audio Menggunakan Filter"},
+{title: `『 ⌗ 』| Berita`, rowId: ".? berita", description: "Cari Berita Ter Up To Date"},
+{title: `『 ⌗ 』| Database`, rowId: ".? database", description: "Simpan Sesuatu Di Database Bot"},
+{title: `『 ⌗ 』| Downloaders`, rowId: ".? downloader", description: "Jangan Download Vokep Ya"},
+{title: `『 ⌗ 』| Exp`, rowId: ".? xp", description: "Ayo Kumpulkan Exp Dan Naikan Pangkat Mu!"},
+{title: `『 ⌗ 』| Fun`, rowId: ".? fun", description: "Fitur Yang Aman Dan Sangat Bersahabat"},
+{title: `『 ⌗ 』| Game`, rowId: ".? game", description: "Gamenya Seru Lho Apalagi Main Sama Temen >,<"},
+{title: `『 ⌗ 』| Group`, rowId: ".? group", description: "Fitur Yang Cocok Untuk Menjaga Grup"},
+{title: `『 ⌗ 』| Info`, rowId: ".? info", description: "Info Tentang Bot"},
+{title: `『 ⌗ 』| Internet`, rowId: ".? internet", description: "Jangan Nyari Yang Aneh Aneh Ya Kak"},
+{title: `『 ⌗ 』| Kerang`, rowId: ".? kerangajaib", description: "Tenya Apapun Kepada Ketua Club"},
+{title: `『 ⌗ 』| Maker`, rowId: ".? maker", description: "Buatlah Suatu Karya Di Fitur Ini"},
+{title: `『 ⌗ 』| Menfess`, rowId: ".? menfess", description: "Mengirim Pesan Secara Anonim"},
+{title: `『 ⌗ 』| Nsfw`, rowId: ".? nsfw", description: "Eitss Dosa Di Tanggung Sendiri Ya Kak >,<"},
+{title: `『 ⌗ 』| Nulis`, rowId: ".? nulis", description: "Nulis Doang Kok Males Sih Kak?"},
+{title: `『 ⌗ 』| Owner`, rowId: ".? owner", description: "Ini Khusus Ownerku !!"},
+{title: `『 ⌗ 』| Premium`, rowId: ".? premium", description: "Ini Khusus User Premium !!"},
+{title: `『 ⌗ 』| Quotes`, rowId: ".? quotes", description: "Random Kata Motivasi, Bucin, Inspirasi Dan Lainnya"},
+{title: `『 ⌗ 』| Rpg`, rowId: ".? rpg", description: "Mari Berpetualang Bersama Bot!!!"},
+{title: `『 ⌗ 』| Stalking`, rowId: ".? stalker", description: "Mau Stalking Mantan Yah Kak >,<"},
+{title: `『 ⌗ 』| Stress`, rowId: ".? stress", description: "Ini Fitur Khusus Yang Stress :v"},
+{title: `『 ⌗ 』| Stikers`, rowId: ".? stiker", description: "Buat Sticker Di Bot"},
+{title: `『 ⌗ 』| Text Pro`, rowId: ".? textpro", description: "Buat Logo Kamu Disini Dengan Text Custom"},
+{title: `『 ⌗ 』| Tools`, rowId: ".? tools", description: "Mungkin Fitur Ini Bisa Membantumu"},
+{title: `『 ⌗ 』| No Category`, rowId: ".? nocategory", description: "Fitur Tanpa Kategory!"},
 ] },
 ]
 let psan = `_Note: Jangan Spam Jika Ingin Bot Tetap Aktif_`
@@ -444,7 +444,7 @@ const pp = await conn
 			.profilePictureUrl(m.sender, "image")
 			.catch((_) => "./src/avatar_contact.png");
 			
-	await conn.send3TemplateButtonImg(m.chat, fotonya1, text, wm, 'Sewa', '.sewa', 'Owner', '.owner', 'Thanks To', '.tqto', m)
+	await conn.send3TemplateButtonImg(m.chat, fotonya1, text, wm, 'Sewa', '.sewa', 'Owner', '.owner','terkadang..\nkalo liat martabak gw suka sange', '.', m)
     		
 	} catch (e) {
 		conn.reply(m.chat, "Maaf, menu sedang error", m)
@@ -453,7 +453,7 @@ const pp = await conn
 }
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(menu)$/i
+handler.command = /^(menu|\?)$/i
 
 handler.register = false
 

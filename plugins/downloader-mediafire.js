@@ -12,6 +12,6 @@ m.reply(hehe)
 handler.help = ['mediafire']
 handler.tags = ['downloader']
 handler.command = /^(mediafire)$/i
-handler.limit = true
+handler.premium = true
 
 export default handler

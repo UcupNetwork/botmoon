@@ -20,5 +20,5 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 handler.help = ['facebook'].map(v => v + ' <url>')
 handler.tags = ['dl']
 handler.command = /^((facebook|fb)(downloder|dl)?)$/i
-
+handler.premium = true
 export default handler

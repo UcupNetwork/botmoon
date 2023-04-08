@@ -70,7 +70,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 handler.help = ["ytmp4", "ytv"]
 handler.tags = ["downloader"];
 handler.command = /^yt(v|mp4)?$/i;
-
+handler.premium = true
 handler.exp = 0;
 
 export default handler;

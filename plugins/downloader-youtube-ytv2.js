@@ -47,7 +47,7 @@ handler.command = /^ytv2|ytvideo$/i
 
 handler.exp = 0
 handler.register = false
-handler.limit = true
+handler.limit = 10
 
 
 export default handler
