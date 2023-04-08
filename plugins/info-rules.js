@@ -2,9 +2,7 @@ import fs from 'fs'
 
 let handler = async (m, { conn }) => {
 	let rules = `Peraturan Penggunaan Bot :
-- Dilarang Spam
-- Dilarang Menelpon Bot
-- Dilarang Mengirim Virus Ke Bot
+- Dilarang Spam ke bot
 
 Catatan :
 Semua Fitur Bot Di Lakukan Secara Otomatis Oleh Sistem Tanpa
@@ -18,7 +16,7 @@ contextInfo: { externalAdReply :{
                         mediaUrl: '',
                         mediaType: 2,
                         description: 'anu',
-                        title: 'Yaemiko-Multidevice',
+                        title: 'Patrick Bot',
                         body: wm,          previewType: 0,
                         thumbnail: fs.readFileSync("./thumbnail.jpg"),
                         sourceUrl: sig

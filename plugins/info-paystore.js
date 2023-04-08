@@ -14,10 +14,9 @@ let pv = '50'
 let ppm = '70'
 let info = `
 ╭━━━━「 *SEWA* 」
-┊• *1 Minggu:* 3K
-┊• *1 Bulan:* 12K
-┊• *2 Bulan:* 20K
-┊• *Permanen:* 30K
+┊• *1 Minggu:* 6K
+┊• *2 Minggu:* 12K
+┊• *1 Bulan:* 20K
 ╰═┅═━––––––๑
 
 ╭━━━━「 *PREMIUM* 」
@@ -26,7 +25,9 @@ let info = `
 
 *PAYMENT:*
 
-• *Ovo:* [${povo}]
+• Ovo: 083133162295
+• Dana: 083133162295
+• Axis: 083133162295
 `
 const sections = [
    {
