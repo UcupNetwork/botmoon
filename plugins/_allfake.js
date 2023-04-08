@@ -43,10 +43,10 @@ handler.all = async function (m) {
 					title: "Hai " + name,
 					body: "Jangan Lupa Bernafas",
 					mediaUrl: sgc,
-					description: 'Yaemiko-MD',
+					description: 'Patrick Bot',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(pp)).buffer(),
-					sourceUrl: "https://zeltoria.github.io",					
+					sourceUrl: "https://chat.whatsapp.com/IAkanxKZfIY4O9USkWFtOV",					
 				}
 			}
 		}
